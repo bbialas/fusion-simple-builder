@@ -11,8 +11,13 @@
  * @since 1.0.0
  */
 
-#[AllowDynamicProperties]
 class FusionCoreExtend	{	
+	public $name;
+	public $shortcode_tag;
+	public $description;
+	public $icon;
+	public $disable_style_params;
+	public $params;
 
 	public function __construct($name, $shortcode_tag, $description, $icon, $disable_style_params, $params) {
 		
