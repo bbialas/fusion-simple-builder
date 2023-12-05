@@ -732,12 +732,11 @@ a img.aligncenter {
 /**
  * Material Icons
  */
-
+ 
 @font-face {
 	font-family: 'Material Icons';
 	font-style: normal;
 	font-weight: 400;
-	font-display: swap;
 	src: url('webfonts/MaterialIcons-Regular.eot'); /* For IE6-8 */
 	src: local('Material Icons'),
 		local('MaterialIcons-Regular'),
@@ -758,15 +757,15 @@ a img.aligncenter {
 	word-wrap: normal;
 	white-space: nowrap;
 	direction: ltr;
-
+	
 	/* Support for all WebKit browsers. */
 	-webkit-font-smoothing: antialiased;
 	/* Support for Safari and Chrome. */
 	text-rendering: optimizeLegibility;
-
+	
 	/* Support for Firefox. */
 	-moz-osx-font-smoothing: grayscale;
-
+	
 	/* Support for IE. */
 	font-feature-settings: 'liga';
 }
@@ -856,7 +855,7 @@ a img.aligncenter {
 }
 
 .fsn-interface-grid	{
-	position:relative;
+	position:relative;	
 }
 
 .ui-tooltip.fsn-tooltip {
@@ -1319,7 +1318,7 @@ a img.aligncenter {
 .fsn-interface-grid .col-xs-12,
 .fsn-interface-grid .col-sm-12,
 .fsn-interface-grid .col-md-12,
-.fsn-interface-grid .col-lg-12 {
+.fsn-interface-grid .col-lg-12 {  
 	padding-left:4px;
 	padding-right:4px;
 }
@@ -1584,7 +1583,7 @@ a img.aligncenter {
 
 .fsn-element-note-heading + .fsn-element-note-description	{
 	margin-top:-10px;
-}
+} 
 
 /**
  * Custom List field type
@@ -1604,7 +1603,7 @@ a img.aligncenter {
 
 .custom-list-sort .custom-list-item.collapse-active	{
 	height:50px;
-	overflow:hidden;
+	overflow:hidden;	
 }
 
 .custom-list-sort .custom-list-item.collapse-active:after	{
@@ -1634,7 +1633,7 @@ a img.aligncenter {
 
 .custom-list-sort .custom-list-item:hover	{
 	cursor:move;
-}
+}       	       
 
 .custom-list-sort .custom-list-item .remove-custom-list-item	{
 	position:absolute;
@@ -1667,7 +1666,7 @@ a img.aligncenter {
 /**
  * Components
  */
-
+ 
 .form-group .component-add-new	{
 	margin-top:5px;
 }
@@ -1676,7 +1675,7 @@ a img.aligncenter {
 	margin-top:5px;
 	margin-left:5px;
 }
-
+ 
 #componentsModal	{
 	z-index:9991;
 	top:30px;
@@ -1697,7 +1696,7 @@ a img.aligncenter {
 	z-index: 1000;
 	cursor:pointer;
 }
-
+ 
 #componentsModal .modal-dialog	{
 	width:auto;
 }
@@ -1749,7 +1748,7 @@ a img.aligncenter {
 /**
  * Colors
  */
-
+ 
 .fsn-main-controls	{
 	background:#f5f5f5;
 }
@@ -1767,7 +1766,7 @@ a img.aligncenter {
 	border-left:4px solid #fff;
 	border-right:4px solid #fff;
 }
-
+ 
 .ui-tooltip.fsn-tooltip {
 	background:#1b1b1b;
 	color:#fff;
@@ -1779,7 +1778,7 @@ a img.aligncenter {
 	border-right-color:transparent;
 	border-bottom-color:transparent;
 }
-
+ 
 /*Modals*/
 
 .modal-header {
@@ -1817,9 +1816,9 @@ a img.aligncenter {
 .nav-tabs > li > a.fsn-add-tab	{
 	color:#0073aa;
 }
-
+ 
 /*Controls*/
-
+ 
 .fsn-interface-grid .row-container > .row-header .row-controls .row-controls-dropdown,
 .fsn-interface-grid .column-container > .column-header .column-controls .column-controls-dropdown,
 .fsn-interface-grid .tabs-container > .tabs-header .tabs-controls .tabs-controls-dropdown,
@@ -2078,7 +2077,7 @@ a img.aligncenter {
 .fsn-interface-grid .col-xs-12,
 .fsn-interface-grid .col-sm-12,
 .fsn-interface-grid .col-md-12,
-.fsn-interface-grid .col-lg-12 {
+.fsn-interface-grid .col-lg-12 {  
   color:#fff;
 }
 
@@ -2125,7 +2124,7 @@ a img.aligncenter {
 	opacity:0.8;
 }
 
-.fsn-interface-grid .fsn_text .element-text-holder	{
+.fsn-interface-grid .fsn_text .element-text-holder	{	
 	background:#f0f0f0;
 	color:#444;
 }
