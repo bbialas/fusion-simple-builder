@@ -192,7 +192,7 @@ class FusionCore	{
 			wp_enqueue_script( 'fsn_codemirror', plugin_dir_url( __FILE__ ) . 'includes/js/codemirror/codemirror.js', [], '1.0.0', true );
 			wp_enqueue_script( 'fsn_codemirrormode', plugin_dir_url( __FILE__ ) . 'includes/js/codemirror/mode/xml/xml.js', [], '1.0.0', true );
 			wp_enqueue_style( 'fsn_codemirrorstyling', plugin_dir_url( __FILE__ ) . 'includes/css/codemirror.css', false, '1.0.0' );
-			wp_enqueue_script( 'fsn_core_admin', plugin_dir_url( __FILE__ ) . 'includes/js/fusion-core-admin.js', array('jquery'), '1.3.0', true );
+			wp_enqueue_script( 'fsn_core_admin', plugin_dir_url( __FILE__ ) . 'includes/js/fusion-core-admin.js', array('jquery'), '1.3.1', true );
 			wp_enqueue_style( 'fsn_core_admin', plugin_dir_url( __FILE__ ) . 'includes/css/fusion-core-admin.css', false, '1.3.0' );
 			if ($user_admin_color != 'fresh') {
 				wp_enqueue_style( 'fsn_core_admin_color_scheme', plugin_dir_url( __FILE__ ) . 'includes/css/colors/'. $user_admin_color .'/colors.css', false, '1.3.0' );
