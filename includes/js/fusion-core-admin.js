@@ -730,7 +730,7 @@ function fsnInitUIevents(instance) {
 					}
 					if (newParamValue != '') {
 						if (jQuery(this).hasClass('encode-base64')) {
-							newParamValue = btoa(newParamValue);
+							newParamValue = Base64.encode(newParamValue);
 						} else if (jQuery(this).hasClass('encode-url')) {
 							newParamValue = encodeURIComponent(newParamValue);
 						}
@@ -820,7 +820,7 @@ function fsnInitUIevents(instance) {
 					}
 					if (newParamValue != '') {
 						if (jQuery(this).hasClass('encode-base64')) {
-							newParamValue = btoa(newParamValue);
+							newParamValue = Base64.encode(newParamValue);
 						} else if (jQuery(this).hasClass('encode-url')) {
 							newParamValue = encodeURIComponent(newParamValue);
 						}
@@ -910,7 +910,7 @@ function fsnInitUIevents(instance) {
 					}
 					if (newParamValue != '') {
 						if (jQuery(this).hasClass('encode-base64')) {
-							newParamValue = btoa(newParamValue);
+							newParamValue = Base64.encode(newParamValue);
 						} else if (jQuery(this).hasClass('encode-url')) {
 							newParamValue = encodeURIComponent(newParamValue);
 						}
@@ -1001,7 +1001,7 @@ function fsnInitUIevents(instance) {
 					}
 					if (newParamValue != '') {
 						if (jQuery(this).hasClass('encode-base64')) {
-							newParamValue = btoa(newParamValue);
+							newParamValue = Base64.encode(newParamValue);
 						} else if (jQuery(this).hasClass('encode-url')) {
 							newParamValue = encodeURIComponent(newParamValue);
 						}
@@ -1106,7 +1106,7 @@ function fsnInitUIevents(instance) {
           var contentField = modalSelector.find('.content-field');
 					if (contentField.hasClass('encode-base64')) {
 						var newContent = contentField.val();
-						var newContent = btoa(newContent);
+						var newContent = Base64.encode(newContent);
 					} else if (contentField.hasClass('encode-url')) {
 						var newContent = contentField.val();
 						var newContent = encodeURIComponent(newContent);
@@ -1167,7 +1167,7 @@ function fsnInitUIevents(instance) {
 					}
 					if (newParamValue != '') {
 						if (jQuery(this).hasClass('encode-base64')) {
-							newParamValue = btoa(newParamValue);
+							newParamValue = Base64.encode(newParamValue);
 						} else if (jQuery(this).hasClass('encode-url')) {
 							newParamValue = encodeURIComponent(newParamValue);
 						}
@@ -2395,7 +2395,7 @@ function customListItemShortcodes(modal) {
 
 			if (newParamValue != '') {
 				if (jQuery(this).hasClass('encode-base64')) {
-					newParamValue = btoa(newParamValue);
+					newParamValue = Base64.encode(newParamValue);
 				} else if (jQuery(this).hasClass('encode-url')) {
 					newParamValue = encodeURIComponent(newParamValue);
 				}
